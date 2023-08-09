@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
-border-3{ 
+border-3 {
   margin: 10px;
 }
 
-body{ 
-  background-color: aliceblue; 
+body {
+  background-color: bg-green-500;
 }
-.actionButton{ 
-  color: white; 
+
+.actionButton {
+  color: white;
   padding: 50px;
   max-width: 400px;
+}
+
+.centered {
+  text-align: center;
 }
