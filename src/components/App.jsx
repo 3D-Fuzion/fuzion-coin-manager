@@ -15,12 +15,10 @@ const router = createBrowserRouter([
 export function App() {
   return (
     <div className="container-sm mx-auto">
-      <div className="flex flex-row">
-        <div className="basis-2/12 bg-slate-100"></div>
-        <div className="basis-8/12 centered bg-slate-800 shadow-2xl">
+      <div className="flex flex-row h-screen w-screen justify-center">
+        <div className="bg-slate-800 text-center shadow-2xl w-full px-12">
           <RouterProvider router={router} />
         </div>
-        <div className="basis-2/12 bg-slate-100"></div>
       </div>
     </div>
   );

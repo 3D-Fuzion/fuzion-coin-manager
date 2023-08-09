@@ -1,7 +1,7 @@
 function AccountContainer(props) {
   return (
     <li>
-      <div className="flex flex-row justify-between gap-8 m-5 hover:scale-105 bg-slate-200 shadow-md hover:shadow-xl">
+      <div className="flex flex-row justify-between gap-8 m-5 hover:scale-105 transition-all duration-75 bg-slate-200 shadow-md hover:shadow-xl">
         <div className="border-r-4 border-l-8 p-2 border-l-blue-600 border-slate-800">
           <h1 className="text-3xl font-bold underline">Email</h1>
           <h1>{props.email}</h1>

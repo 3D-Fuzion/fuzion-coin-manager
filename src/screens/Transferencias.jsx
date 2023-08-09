@@ -7,7 +7,7 @@ function Transferecias() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/user")
+      .get("https://fuzion-coin.azurewebsites.net/user")
       .then((response) => setContas(response.data));
     console.log(contas);
   }, []);
