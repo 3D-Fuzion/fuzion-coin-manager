@@ -33,7 +33,7 @@ function AccountContainer(props) {
 
   function AddCoin() {
     axios
-      .post("http://localhost:3000/manager/addcoin", {
+      .post("https://fuzion-coin.azurewebsites.net/manager/addcoin", {
         userId: props.userId,
         newValue: operationValue,
       })
@@ -48,7 +48,7 @@ function AccountContainer(props) {
 
   function RemoveCoin() {
     axios
-      .post("http://localhost:3000/manager/removecoin", {
+      .post("https://fuzion-coin.azurewebsites.net/manager/removecoin", {
         userId: props.userId,
         newValue: operationValue,
       })
