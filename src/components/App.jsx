@@ -15,8 +15,8 @@ const router = createBrowserRouter([
 export function App() {
   return (
     <div className="container-sm mx-auto">
-      <div className="flex flex-row h-screen w-screen justify-center">
-        <div className="bg-slate-800 text-center shadow-2xl w-full px-12">
+      <div className="flex flex-row h-full w-screen justify-center">
+        <div className="bg-slate-800 h-full text-center shadow-2xl w-full px-12">
           <RouterProvider router={router} />
         </div>
       </div>

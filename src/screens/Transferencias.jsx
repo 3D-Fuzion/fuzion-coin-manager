@@ -21,6 +21,7 @@ function Transferecias() {
         {contas.map((c) => (
           <AccountContainer
             key={c._id}
+            userId={c._id}
             email={c.email}
             name={c.name}
             coin={c.coin}
